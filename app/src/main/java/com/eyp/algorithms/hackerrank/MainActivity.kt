@@ -6,6 +6,7 @@ import com.eyp.algorithms.hackerrank.algorithms.week2.countingSort
 import com.eyp.algorithms.hackerrank.algorithms.week2.countingValleys
 import com.eyp.algorithms.hackerrank.algorithms.week2.diagonalDifference
 import com.eyp.algorithms.hackerrank.algorithms.week2.flippingBits
+import com.eyp.algorithms.hackerrank.algorithms.week2.pangrams
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -45,7 +46,9 @@ class MainActivity : AppCompatActivity() {
 //        countingSort(arrayOf(1, 1, 3, 2, 1))
 
         //countingValleys fonksiyonu
-        countingValleys(8, "UDDDUDUU")
+//        countingValleys(8, "UDDDUDUU")
 
+        //pangrams fonksiyonu
+        pangrams("We promptly judged antique ivory buckles for the next prize")
     }
 }
