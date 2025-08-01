@@ -6,6 +6,7 @@ import com.eyp.algorithms.hackerrank.algorithms.week2.countingSort
 import com.eyp.algorithms.hackerrank.algorithms.week2.countingValleys
 import com.eyp.algorithms.hackerrank.algorithms.week2.diagonalDifference
 import com.eyp.algorithms.hackerrank.algorithms.week2.flippingBits
+import com.eyp.algorithms.hackerrank.algorithms.week2.marsExploration
 import com.eyp.algorithms.hackerrank.algorithms.week2.pangrams
 
 class MainActivity : AppCompatActivity() {
@@ -49,6 +50,9 @@ class MainActivity : AppCompatActivity() {
 //        countingValleys(8, "UDDDUDUU")
 
         //pangrams fonksiyonu
-        pangrams("We promptly judged antique ivory buckles for the next prize")
+//        pangrams("We promptly judged antique ivory buckles for the next prize")
+
+        //marsExploration fonksiyonu
+        marsExploration("SOSSPSSQSSOR")
     }
 }
