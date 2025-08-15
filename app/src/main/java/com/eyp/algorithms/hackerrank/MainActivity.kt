@@ -8,6 +8,7 @@ import com.eyp.algorithms.hackerrank.algorithms.week2.diagonalDifference
 import com.eyp.algorithms.hackerrank.algorithms.week2.flippingBits
 import com.eyp.algorithms.hackerrank.algorithms.week2.marsExploration
 import com.eyp.algorithms.hackerrank.algorithms.week2.pangrams
+import com.eyp.algorithms.hackerrank.algorithms.week3.permutingTwoArrays
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -53,6 +54,9 @@ class MainActivity : AppCompatActivity() {
 //        pangrams("We promptly judged antique ivory buckles for the next prize")
 
         //marsExploration fonksiyonu
-        marsExploration("SOSSPSSQSSOR")
+//        marsExploration("SOSSPSSQSSOR")
+
+        //permutingTwoArrays fonksiyonu
+        permutingTwoArrays(10, arrayOf(2, 1, 3), arrayOf(7, 8, 9))
     }
 }
