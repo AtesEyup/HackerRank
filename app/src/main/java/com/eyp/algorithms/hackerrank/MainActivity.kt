@@ -9,6 +9,7 @@ import com.eyp.algorithms.hackerrank.algorithms.week2.flippingBits
 import com.eyp.algorithms.hackerrank.algorithms.week2.marsExploration
 import com.eyp.algorithms.hackerrank.algorithms.week2.pangrams
 import com.eyp.algorithms.hackerrank.algorithms.week3.permutingTwoArrays
+import com.eyp.algorithms.hackerrank.algorithms.week3.subArrayDivision
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -57,6 +58,9 @@ class MainActivity : AppCompatActivity() {
 //        marsExploration("SOSSPSSQSSOR")
 
         //permutingTwoArrays fonksiyonu
-        permutingTwoArrays(10, arrayOf(2, 1, 3), arrayOf(7, 8, 9))
+//        permutingTwoArrays(10, arrayOf(2, 1, 3), arrayOf(7, 8, 9))
+
+        //subArrayDivision 2 fonksiyonu
+        subArrayDivision(arrayOf(2, 5, 1, 3, 4, 4, 3, 5, 1, 1, 2, 1, 4, 1, 3, 3, 4, 2, 1),18,7)
     }
 }
