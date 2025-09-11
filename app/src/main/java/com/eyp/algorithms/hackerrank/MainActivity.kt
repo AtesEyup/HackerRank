@@ -8,6 +8,7 @@ import com.eyp.algorithms.hackerrank.algorithms.week2.diagonalDifference
 import com.eyp.algorithms.hackerrank.algorithms.week2.flippingBits
 import com.eyp.algorithms.hackerrank.algorithms.week2.marsExploration
 import com.eyp.algorithms.hackerrank.algorithms.week2.pangrams
+import com.eyp.algorithms.hackerrank.algorithms.week3.migratoryBirds
 import com.eyp.algorithms.hackerrank.algorithms.week3.permutingTwoArrays
 import com.eyp.algorithms.hackerrank.algorithms.week3.sockMerchant
 import com.eyp.algorithms.hackerrank.algorithms.week3.subArrayDivision
@@ -69,6 +70,9 @@ class MainActivity : AppCompatActivity() {
 //        xorStrings3(arrayOf("10101", "00101"))
 
         //stockMerchant fonksiyonu
-        sockMerchant(9, arrayOf(10, 20, 20, 10, 10, 30, 50, 10, 20))
+//        sockMerchant(9, arrayOf(10, 20, 20, 10, 10, 30, 50, 10, 20))
+
+        //migratoryBirds fonksiyonu
+        migratoryBirds(arrayOf(1, 2, 3, 4, 5, 4, 3, 2, 1, 3, 4))
     }
 }
