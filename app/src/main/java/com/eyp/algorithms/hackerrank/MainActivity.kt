@@ -14,6 +14,7 @@ import com.eyp.algorithms.hackerrank.algorithms.week3.permutingTwoArrays
 import com.eyp.algorithms.hackerrank.algorithms.week3.sockMerchant
 import com.eyp.algorithms.hackerrank.algorithms.week3.subArrayDivision
 import com.eyp.algorithms.hackerrank.algorithms.week3.xorStrings3
+import com.eyp.algorithms.hackerrank.algorithms.week3.zigZagSequence
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -77,7 +78,9 @@ class MainActivity : AppCompatActivity() {
 //        migratoryBirds(arrayOf(1, 2, 3, 4, 5, 4, 3, 2, 1, 3, 4))
 
         //maximumPerimeterTriangle fonksiyonu
-        maximumPerimeterTriangle(arrayOf(1, 1, 1, 3, 3))
+//        maximumPerimeterTriangle(arrayOf(1, 1, 1, 3, 3))
 
+        //zigZagSequence fonksiyonu
+        zigZagSequence(arrayOf("2", "3", "5", "1", "4"))
     }
 }
