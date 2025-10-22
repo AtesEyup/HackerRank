@@ -8,6 +8,7 @@ import com.eyp.algorithms.hackerrank.algorithms.week2.diagonalDifference
 import com.eyp.algorithms.hackerrank.algorithms.week2.flippingBits
 import com.eyp.algorithms.hackerrank.algorithms.week2.marsExploration
 import com.eyp.algorithms.hackerrank.algorithms.week2.pangrams
+import com.eyp.algorithms.hackerrank.algorithms.week3.drawingBook
 import com.eyp.algorithms.hackerrank.algorithms.week3.maximumPerimeterTriangle
 import com.eyp.algorithms.hackerrank.algorithms.week3.migratoryBirds
 import com.eyp.algorithms.hackerrank.algorithms.week3.permutingTwoArrays
@@ -15,6 +16,7 @@ import com.eyp.algorithms.hackerrank.algorithms.week3.sockMerchant
 import com.eyp.algorithms.hackerrank.algorithms.week3.subArrayDivision
 import com.eyp.algorithms.hackerrank.algorithms.week3.xorStrings3
 import com.eyp.algorithms.hackerrank.algorithms.week3.zigZagSequence
+import com.eyp.algorithms.hackerrank.algorithms.week4.pickingNumbers
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -81,6 +83,12 @@ class MainActivity : AppCompatActivity() {
 //        maximumPerimeterTriangle(arrayOf(1, 1, 1, 3, 3))
 
         //zigZagSequence fonksiyonu
-        zigZagSequence(arrayOf("2", "3", "5", "1", "4"))
+//        zigZagSequence(arrayOf("2", "3", "5", "1", "4"))
+
+        //drawingBook fonksiyonu
+//        drawingBook(6, 2)
+
+        //pickingNumbers fonksiyonu
+        pickingNumbers(arrayOf(4, 6, 5, 3, 3, 1))
     }
 }
